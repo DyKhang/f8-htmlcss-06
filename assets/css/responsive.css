@@ -380,7 +380,8 @@
   }
 
   .projects__btn {
-    margin-top: 50px;
+    display: block;
+    margin: 50px auto 0;
     padding: 0;
     width: 154px;
     line-height: 56px;
@@ -898,5 +899,13 @@
 
   .booking__deco-center {
     left: 40%;
+  }
+
+  .hero__deco-bg {
+    width: 100%;
+  }
+
+  .booking__deco-center {
+    width: 100%;
   }
 }
