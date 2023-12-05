@@ -19,6 +19,9 @@
 
 /* Tablet % Mobile */
 @media screen and (max-width: 991.98px) {
+  html {
+    overscroll-behavior: none;
+  }
   .mobile__navigation-btn {
     display: flex;
     justify-content: center;
@@ -815,7 +818,7 @@
 
   .projects-item {
     position: relative;
-    width: 100vw;
+    width: 100%;
   }
 
   .projects-item__img {
@@ -889,7 +892,8 @@
   }
 
   .questions__inner {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .atmosphere__img-wrap {
@@ -907,5 +911,23 @@
 
   .booking__deco-center {
     width: 100%;
+  }
+
+  .mobile-header__drawer {
+    inset: 0 0 0 40%;
+  }
+
+  .hero__content {
+    padding: 0 10px;
+  }
+
+  .questions-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .questions-item__title {
+    width: 80%;
+    display: inline-block;
   }
 }

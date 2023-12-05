@@ -611,8 +611,8 @@ a {
 .designer-numbers {
   padding: 20px 0;
   margin-top: 70px;
-  border-top: 1px solid #080415;
-  border-bottom: 1px solid #080415;
+  border-top: 1px solid #e1e1e3;
+  border-bottom: 1px solid #e1e1e3;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -1063,6 +1063,7 @@ a {
   display: flex;
   gap: 36px;
   align-items: center;
+  opacity: 0.6;
 }
 
 .footer__copy-right {
@@ -1070,6 +1071,7 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 166.667%;
+  opacity: 0.6;
 }
 
 .footer__privacy,
