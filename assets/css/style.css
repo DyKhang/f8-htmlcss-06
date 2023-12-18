@@ -129,9 +129,6 @@ a {
 .hero {
   padding-top: 44px;
   background-color: #fbfaff;
-}
-
-.hero .container {
   position: relative;
 }
 
@@ -244,7 +241,7 @@ a {
 .hero__deco-sm {
   position: absolute;
   bottom: 0;
-  right: -159px;
+  right: 0;
 }
 
 /* Clients */
@@ -417,6 +414,7 @@ a {
   background-color: #fbfaff;
   transition: box-shadow 0.25s;
   cursor: pointer;
+  height: 100%;
 }
 
 .special__item:hover {
@@ -516,6 +514,7 @@ a {
   background-color: #fbfaff;
   cursor: pointer;
   transition: scale 0.25s;
+  height: 100%;
 }
 
 .projects-item:hover {
@@ -525,7 +524,6 @@ a {
 .projects-item__deco {
   position: absolute;
   top: 0;
-  left: 161.08px;
 }
 
 .projects-item__title {
@@ -968,7 +966,7 @@ a {
 .booking__inner {
   position: relative;
   padding: 68px 0;
-  width: 1330px;
+  width: 88%;
   margin: 0 auto;
   background-color: #fbfaff;
 }
@@ -982,6 +980,7 @@ a {
 }
 
 .booking__heading {
+  text-align: center;
   position: relative;
   z-index: 1;
   margin-top: 20px;
@@ -1023,8 +1022,10 @@ a {
 
 .booking__deco-center {
   position: absolute;
-  left: 239px;
+  left: 50%;
+  translate: -50%;
   bottom: 0;
+  height: 100%;
 }
 
 .booking__deco-right {
